@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/common_padding"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.AdviceForParents.advice.main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.22"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            style="@style/ImageViewStyleMainMenu"
+            android:background="@drawable/oval"
+            android:src="@drawable/advice_icon"
+            android:layout_marginEnd="@dimen/marginBottom"/>
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/MainTitle"
+            android:textSize="@dimen/size_for_main_text"
+            android:textColor="@color/colorForText"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/age_features"
+        style="@style/LinearLayoutStyle">
+
+        <TextView
+            android:id="@+id/tvAgeFeatures"
+            style="@style/TextViewStyle"
+            android:text="@string/button_age_features"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/articles"
+        style="@style/LinearLayoutStyle">
+
+        <TextView
+            android:id="@+id/tvArticles"
+            style="@style/TextViewStyle"
+            android:text="@string/button_article_for_parents"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/personality"
+        style="@style/LinearLayoutStyle">
+
+        <TextView
+            android:id="@+id/tvPersonality"
+            style="@style/TextViewStyle"
+            android:text="@string/button_personality"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/relationship"
+        style="@style/LinearLayoutStyle">
+
+        <TextView
+            android:id="@+id/tvRelationship"
+            style="@style/TextViewStyle"
+            android:text="@string/button_relationship"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/about_application"
+        style="@style/LinearLayoutStyle">
+
+        <TextView
+            android:id="@+id/tvAboutApp"
+            style="@style/TextViewStyle"
+            android:text="@string/about_application"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contacts"
+        style="@style/LinearLayoutStyle">
+
+        <TextView
+            android:id="@+id/tvContacts"
+            style="@style/TextViewStyle"
+            android:text="@string/contacts"/>
+
+    </LinearLayout>
+
+</LinearLayout>

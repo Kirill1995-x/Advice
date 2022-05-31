@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.AdviceForParents.advice">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/AdviceParents"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".ApplicationClass">
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".main"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeWithoutActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".age_features"
+            android:label="@string/title_age_features">
+            <intent-filter>
+                <action android:name="com.AdviceForParents.advice.age_features" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".articles"
+            android:label="@string/title_articles">
+            <intent-filter>
+                <action android:name="com.AdviceForParents.advice.articles" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".age_features_list"
+            android:label="@string/title_age_features">
+            <intent-filter>
+                <action android:name="com.AdviceForParents.advice.age_features_list" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".articles_list"
+            android:label="@string/title_articles">
+            <intent-filter>
+                <action android:name="com.AdviceForParents.advice.articles_list" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".testParents"
+            android:label="@string/title_testParents">
+            <intent-filter>
+                <action android:name="com.AdviceForParents.advice.testParents" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".about_programm"
+            android:label="@string/title_about_app">
+            <intent-filter>
+                <action android:name="com.AdviceForParents.advice.about_programm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".relationship"
+            android:label="@string/title_relationship">
+            <intent-filter>
+                <action android:name="com.AdviceForParents.advice.relationship" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".about_test"
+            android:label="@string/title_testParents">
+            <intent-filter>
+                <action android:name="com.AdviceForParents.advice.about_test" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".about_relationship"
+            android:label="@string/title_relationship">
+            <intent-filter>
+                <action android:name="com.AdviceForParents.advice.about_relationship" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Contacts"
+            android:label="@string/contacts">
+            <intent-filter>
+                <action android:name="com.AdviceForParents.advice.Contacts" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

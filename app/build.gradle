@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'PsychologyApp'
+            keyPassword 'eminemthebestandi'
+            storeFile file('C:/AndroidProjects/my_key_store.jks')
+            storePassword 'eminemthebestandi'
+        }
+    }
+    compileSdkVersion 31
+    defaultConfig {
+        applicationId "com.AdviceForParents.advice"
+        minSdkVersion 21
+        targetSdkVersion 31
+        versionCode 12
+        versionName "6.5.1"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        aaptOptions.setProperty("cruncherEnabled", false)
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+    productFlavors {
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.jakewharton:butterknife:10.2.3'
+    implementation platform('com.google.firebase:firebase-bom:29.0.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
+    testImplementation 'junit:junit:4.13'
+}
+
+android {
+    lintOptions {
+        abortOnError false
+    }
+}
+
+
+

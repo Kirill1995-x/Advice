@@ -1,0 +1,1 @@
+28 сен 2019 11:02:50 GMT: Log 'EclipseCompiler.txt' opened: 28 сен 2019 11:02:50 GMT with name C:\Android\AndroidProject\Advice\app\src\test\java\com\AdviceForParents\advice\EclipseCompiler.txt

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Advice</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_application">О приложении</string>
+    <string name="AdviceParents">СупеРодитель</string>
+    <string name="MainTitle">СУПЕРОДИТЕЛЬ</string>
+    <string name="button_age_features">Возрастные особенности детей</string>
+    <string name="button_article_for_parents">Полезные статьи для родителей</string>
+    <string name="button_personality">Онлайн-обследование личностных особенностей</string>
+    <string name="button_relationship">Онлайн-обследование взаимоотношений в семье</string>
+    <string name="button_contacts">Контакты</string>
+    <string name="research">Исследование личности и психоэмоционального состояния</string>
+    <string name="methods">Методики на выявление взаимоотношений с членами семьи</string>
+    <string name="testApp">Тесты</string>
+    <string name="relationship">Тесты</string>
+    <string name="title_age_features">Возрастные особенности</string>
+    <string name="title_articles">Полезные статьи</string>
+    <string name="title_testParents">Онлайн-обследование</string>
+    <string name="title_relationship">Онлайн-обследование</string>
+    <string name="browser">Онлайн-обследование</string>
+    <string name="title_contacts">Контакты</string>
+    <string name="title_about_app">О приложении</string>
+    <string name="title_browser">Онлайн-обследование</string>
+    <string name="contacts">Контакты</string>
+</resources>

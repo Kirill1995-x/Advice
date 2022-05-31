@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_for_text">28sp</dimen>
+    <dimen name="height_for_button">92sp</dimen>
+    <dimen name="common_padding">45dp</dimen>
+    <dimen name="padding_for_main_menu">4dp</dimen>
+    <dimen name="size_of_list_item">120dp</dimen>
+    <dimen name="size_for_main_text">60sp</dimen>
+    <dimen name="size_for_icon_width">86dp</dimen>
+    <dimen name="size_for_icon_height">86dp</dimen>
+    <dimen name="size_for_icon_width_main_menu">120dp</dimen>
+    <dimen name="size_for_icon_height_main_menu">120dp</dimen>
+    <dimen name="marginBottom">15dp</dimen>
+</resources>

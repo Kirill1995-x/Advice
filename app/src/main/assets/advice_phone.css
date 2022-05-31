@@ -1,0 +1,22 @@
+﻿hr {
+    border: none; 
+    background-color: #FFFFFF; 
+    color: #FFFFFF;
+    height: 2px; 
+}
+ul{
+    padding: 0; 
+    margin-left: 20px; 
+    line-height:2;
+}
+body{
+     font-size: 16px;
+     background-color:#E67F86;
+     color:#FFFFFF;
+     text-align: left;
+}
+p {
+     text-indent: 15px;
+     line-height: 2;
+     margin: 0;
+}
